@@ -1,0 +1,31 @@
+.menu-list li {
+    list-style: none;
+    padding: 15px 30px;
+    margin: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Initial Colors */
+    color: orange;
+    background-color: white;
+
+    transition: all 0.3s ease;
+}
+
+.menu-list li:hover {
+    color: white;
+    background-color: orange;
+    transform: scale(1.1);
+}
+
+.menu-list li.chef-special {
+    color: white;
+    background-color: orange;
+}
+
+.menu-list li.chef-special:hover {
+    transform: scale(1.1);
+}
